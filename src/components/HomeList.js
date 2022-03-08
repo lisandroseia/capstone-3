@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
+import RenderCountry from './RenderCountry'
+
 
 const HomeList = () => {
   const countries = useSelector((state) => state.HomeReducer);
@@ -16,10 +18,10 @@ const HomeList = () => {
       />
       <ul>
         {countries
-          .filter((item) => item.name.toLowerCase().includes(toFilter))
-          .slice(0, 10)
+          .filter((item) => item.country.toLowerCase().includes(toFilter))
+          .slice(-10)
           .map((item) => (
-            <li>{item.name}</li>
+            <RenderCountry key={item.country} name={item.country} />
           ))}
       </ul>
     </div>
