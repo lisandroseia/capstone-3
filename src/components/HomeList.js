@@ -21,7 +21,7 @@ const HomeList = () => {
           .filter((item) => item.country.toLowerCase().includes(toFilter))
           .slice(-10)
           .map((item) => (
-            <RenderCountry key={item.country} name={item.country} />
+            <RenderCountry key={item.country} name={item.country} active={item.active} total={item.cases}/>
           ))}
       </ul>
     </div>
