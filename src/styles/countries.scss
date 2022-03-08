@@ -1,0 +1,37 @@
+.countries-container {
+  background-color: #4b0082;
+  min-height: 100vh;
+  padding: 0 0 100px 0;
+
+  nav{
+      display: flex;
+      padding: 10px 40px;
+      justify-content: space-between;
+      width: 90%;
+      margin: auto;
+      h1{
+          font-size: 35px;
+      }
+      input{
+          align-self: center;
+          justify-self: center;
+          border: 1px solid #4b0082;
+          outline: none;
+          height: 40px;
+          width: 40%;
+          margin-left: -40px;
+          font-size: 20px;
+          border-radius: 5px;
+      }
+      input::placeholder{
+          font-size: 20px;
+          padding: 5px ;
+      }
+  }
+  ul{
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      margin: auto;
+  }
+}
