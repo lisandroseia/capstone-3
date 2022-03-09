@@ -5,7 +5,7 @@ const initialState = [];
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case LIST_COUNTRIES:
-      return [...state, action.payload];
+      return action.payload;
     default:
       return state;
   }
@@ -20,7 +20,7 @@ const listCountries = (payload) => ({
 
 export function loadCountries(){
     return (dispatch) => {
-        const url = 'https://api.covid19tracking.narrativa.com/api/countries';
+        const url = 'https://disease.sh/v3/covid-19/countries';
         fetch(url)
         .then(res => res.json())
         .then(data => dispatch(listCountries(data)))

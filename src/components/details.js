@@ -41,15 +41,6 @@ const Details = () => {
           <p>recovered per million: <span>{details.recoveredPerOneMillion}</span></p>
           <p>tests per million: <span>{details.testsPerOneMillion}</span></p>
                </div>
-
-
-
-          
-
-          
-
-
-
         </section>
   )
 };
