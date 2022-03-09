@@ -1,27 +1,91 @@
-.list-wraper{
-    border: 1px solid #000;
-    padding: 10px 20px;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.list-wraper {
+  padding: 10px 20px;
+  min-width: 45%;
+  max-width: 45%;
+  min-height: 20vh;
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #c0c0c0;
+    padding: 10px 0;
+    background: url(../assets/cov2.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  div:hover {
+    background-color: #2d1fa8b7;
+    color: #fff;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .active,
+  .total {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+/*resposive 
+media-querys table
+*/
+
+/* big screens*/
+
+@media (min-width: 1200px) {
+}
+
+/* horizontal tablets and average desktop*/
+
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+
+/*horizontal moviles*/
+
+@media (max-width: 767px) {
+}
+
+/*average moviles*/
+
+@media (max-width: 480px) {
+  .list-wraper {
     min-width: 50%;
-    min-height: 20vh;
+    max-width: 50%;
+    min-height: 50vh;
+    max-height: 50vh;
+    padding: 0;
+    margin: auto;
 
-    div{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        color: #C0C0C0	;
-        padding:  10px 0;
-    }:hover{
-        color: #fff;
+    div {
+      background: url(../assets/cov.jpg) no-repeat center center;
+      background-size: 200% 100%;
+      border: 1px solid #2d1fa8b7;
+      border-radius: 0;
+      height: 50vh;
+      text-align: center;
+      justify-content: space-between;
+      padding: 50px 0;
     }
 
-    h2{
-        font-size: 40px;
-        font-weight: bold;
+    h2 {
+      font-size: 25px;
     }
-
-    .active, .total {
-        font-size: 20px;
-        font-weight: lighter;
+    h2,
+    p {
+      color: #fff;
     }
+  }
 }
