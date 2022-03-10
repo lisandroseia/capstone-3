@@ -20,6 +20,7 @@
     background-size: 100% 100%;
     padding: 20px;
     border-radius: 5px;
+    justify-content: flex-start;
   }
   div:hover {
     background-color: #2d1fa8b7;
@@ -64,19 +65,18 @@ media-querys table
   .list-wraper {
     min-width: 50%;
     max-width: 50%;
-    min-height: 50vh;
-    max-height: 50vh;
+    min-height: 25vh;
+    max-height: 25vh;
     padding: 0;
-    margin: auto;
 
     div {
-      background: url(../assets/cov.jpg) no-repeat center center;
-      background-size: 200% 100%;
+      background: url(../assets/cov7.jpeg) no-repeat center center;
+      background-size: 100% 100%;
       border: 1px solid #2d1fa8b7;
       border-radius: 0;
-      height: 50vh;
+      height: 25vh;
       text-align: center;
-      justify-content: space-between;
+      justify-content: flex-start;
       padding: 50px 0;
     }
 
