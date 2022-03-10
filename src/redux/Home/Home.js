@@ -18,11 +18,11 @@ const listCountries = (payload) => ({
   payload,
 });
 
-export function loadCountries(){
-    return (dispatch) => {
-        const url = 'https://disease.sh/v3/covid-19/countries';
-        fetch(url)
-        .then(res => res.json())
-        .then(data => dispatch(listCountries(data)))
-    }
+export function loadCountries() {
+  return (dispatch) => {
+    const url = 'https://disease.sh/v3/covid-19/countries';
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => dispatch(listCountries(data)));
+  };
 }

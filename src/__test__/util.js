@@ -18,7 +18,7 @@ function render(
     preloadedState,
     store = createStore(reducer, applyMiddleware(thunk)),
     ...renderOptions
-  } = {}
+  } = {},
 ) {
   function Wrapper({ children }) {
     return (

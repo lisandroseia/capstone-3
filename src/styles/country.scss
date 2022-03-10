@@ -9,19 +9,20 @@
   min-width: 45%;
   max-width: 45%;
   min-height: 20vh;
+
   div {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     color: #c0c0c0;
-    padding: 10px 0;
     background: url(../assets/cov2.jpg) no-repeat center center;
     background-size: 100% 100%;
     padding: 20px;
     border-radius: 5px;
     justify-content: flex-start;
   }
+
   div:hover {
     background-color: #2d1fa8b7;
     color: #fff;
@@ -40,26 +41,43 @@
   }
 }
 
-/*resposive 
+/* resposive
 media-querys table
 */
 
-/* big screens*/
-
-@media (min-width: 1200px) {
-}
-
-/* horizontal tablets and average desktop*/
-
-@media (min-width: 768px) and (max-width: 1199px) {
-}
-
-/*horizontal moviles*/
+/* horizontal moviles */
 
 @media (max-width: 767px) {
+  .list-wraper {
+    min-width: 50%;
+    max-width: 50%;
+    min-height: 25vh;
+    max-height: 25vh;
+    padding: 0;
+
+    div {
+      background: url(../assets/cov7.jpeg) no-repeat center center;
+      background-size: 100% 100%;
+      border: 1px solid #2d1fa8b7;
+      border-radius: 0;
+      height: 25vh;
+      text-align: center;
+      justify-content: flex-start;
+      padding: 50px 0;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
+    h2,
+    p {
+      color: #fff;
+    }
+  }
 }
 
-/*average moviles*/
+/* average moviles */
 
 @media (max-width: 480px) {
   .list-wraper {
@@ -83,6 +101,7 @@ media-querys table
     h2 {
       font-size: 25px;
     }
+
     h2,
     p {
       color: #fff;

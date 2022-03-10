@@ -8,7 +8,6 @@
   background: url(../assets/cov4.jpg) no-repeat center center;
   background-attachment: fixed;
   background-size: 100vw 100vh;
-
   min-height: 100vh;
   padding: 0 0 100px 0;
 
@@ -19,15 +18,18 @@
     width: 100%;
     margin: auto;
     background-color: #4c008281;
+
     .icon {
       display: flex;
       align-items: center;
     }
+
     h1 {
       font-size: 35px;
       color: #fff;
       font-weight: bolder;
     }
+
     input {
       align-self: center;
       justify-self: center;
@@ -39,11 +41,13 @@
       font-size: 20px;
       border-radius: 5px;
     }
+
     input::placeholder {
       font-size: 20px;
       padding: 5px;
     }
   }
+
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -51,16 +55,17 @@
     margin: auto;
     gap: 1.25rem;
   }
+
   hr {
     margin: 0 0 50px 0;
   }
 }
 
-/*resposive 
+/* resposive
 media-querys table
 */
 
-/*horizontal moviles*/
+/* horizontal moviles */
 
 @media (max-width: 767px) {
   .countries-container {
@@ -77,6 +82,7 @@ media-querys table
         width: 100%;
       }
     }
+
     hr {
       display: none;
     }
@@ -87,7 +93,7 @@ media-querys table
   }
 }
 
-/*average moviles*/
+/* average moviles */
 
 @media (max-width: 480px) {
   .countries-container {
@@ -104,6 +110,7 @@ media-querys table
         width: 100%;
       }
     }
+
     hr {
       display: none;
     }

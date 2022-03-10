@@ -485,7 +485,7 @@ exports[`homepage homepage renders 1`] = `
             >
               active covid cases: 
               <span>
-                2929
+                2618
               </span>
             </p>
           </div>
@@ -1850,7 +1850,7 @@ exports[`homepage homepage renders 1`] = `
             >
               active covid cases: 
               <span>
-                3247021
+                3428205
               </span>
             </p>
           </div>
@@ -3215,7 +3215,7 @@ exports[`homepage homepage renders 1`] = `
             >
               active covid cases: 
               <span>
-                30307
+                29971
               </span>
             </p>
           </div>
@@ -3656,7 +3656,7 @@ exports[`homepage homepage renders 1`] = `
             >
               active covid cases: 
               <span>
-                478344
+                482801
               </span>
             </p>
           </div>
@@ -4034,7 +4034,7 @@ exports[`homepage homepage renders 1`] = `
             >
               active covid cases: 
               <span>
-                53553
+                51819
               </span>
             </p>
           </div>
