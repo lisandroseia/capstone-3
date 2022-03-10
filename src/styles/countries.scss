@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.countries-container {
+  background: url(../assets/cov4.jpg) no-repeat center center;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+  min-height: 100vh;
+  padding: 0 0 100px 0;
+
+  nav {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    background-color: #4c008281;
+
+    .icon {
+      display: flex;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 35px;
+      color: #fff;
+      font-weight: bolder;
+    }
+
+    input {
+      align-self: center;
+      justify-self: center;
+      border: 1px solid #4b0082;
+      outline: none;
+      height: 40px;
+      width: 40%;
+      margin-left: -270px;
+      font-size: 20px;
+      border-radius: 5px;
+    }
+
+    input::placeholder {
+      font-size: 20px;
+      padding: 5px;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    gap: 1.25rem;
+  }
+
+  hr {
+    margin: 0 0 50px 0;
+  }
+}
+
+/* resposive
+media-querys table
+*/
+
+/* horizontal moviles */
+
+@media (max-width: 767px) {
+  .countries-container {
+    background: url(../assets/cover-Covid19.png) no-repeat center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+    nav {
+      flex-direction: column;
+      align-items: center;
+
+      input {
+        margin: 0;
+        width: 100%;
+      }
+    }
+
+    hr {
+      display: none;
+    }
+
+    ul {
+      width: 100%;
+    }
+  }
+}
+
+/* average moviles */
+
+@media (max-width: 480px) {
+  .countries-container {
+    background: url(../assets/cover-Covid19.png) no-repeat center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+    nav {
+      flex-direction: column;
+      align-items: center;
+
+      input {
+        margin: 0;
+        width: 100%;
+      }
+    }
+
+    hr {
+      display: none;
+    }
+
+    ul {
+      width: 100%;
+      gap: 0;
+    }
+  }
+}
