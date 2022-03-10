@@ -1,56 +1,49 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Covid tracker
 
-> Description the project.
+> A react/redux SPA project, that consumes an API to get the data of covid cases in more than 200 countries, and display it on real time, with a functional filtering to find whichever country you want.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React/Redux, HTML, SASS, Javascript
+- Git, Github & heroku
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://cov-track-ls.herokuapp.com/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
 ### Setup
+in your terminal, run 'https://github.com/lisandroseia/capstone-3.git'
 
 ### Install
 
+in your terminal, run 'npm install'
+
+
 ### Usage
+
+Run 'npm build' to have a local copy
+Run 'npm start' to open a local server
 
 ### Run tests
 
-### Deployment
-
-
+Run 'npm run test' to run test cases.
+Snapshots could be outdated because the data rendered changes dinamically, if so, press 'u' after
+runing 'npm run test'
 
 ## Authors
 
-👤 **Author1**
+👤 **Lisandro Seia**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@lisandroseia](https://github.com/lisandroseia)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lisandro-seia-295120225/)
 
 ## 🤝 Contributing
 
@@ -64,9 +57,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
 ## 📝 License
 
